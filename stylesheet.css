@@ -155,12 +155,12 @@ top: 0;
 
 .home .image .birthday {
     position: absolute;
-    width: 60%;
+    width: 53%;
 }
 
 .home .image .garuda-black {
     position: absolute;
-    width: 80%;
+    width: 68%;
     opacity: .1;
     z-index: 2;
     transition: 1s;
