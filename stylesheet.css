@@ -165,7 +165,7 @@ top: 0;
     z-index: 2;
     transition: 1s;
 }
-.home .image .garuda-black {
+.home .image .garuda-black.garuda-dark {
     opacity: .2;
     transition: 1s;
 }
@@ -202,4 +202,12 @@ transition: .3s;
 
 .sci a:hover i {
                 color: #f00;
+}
+
+/*BREAKPOINTS*/
+
+@media (max-width: 992px) {
+    html {
+        font-size: 60%;
+    }
 }
