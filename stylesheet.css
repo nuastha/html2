@@ -20,7 +20,7 @@
 }
 
 .dark-mode {
-    --primary-color: #222;
+    --primary-color: #212121;
     --secondary-color: #f9f9f9;
 
 }
@@ -50,9 +50,11 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
+    transition: 1s;
 }
 
-header .garuda-logo {
+header .garuda-color
+ {
     position: relative;
     width: 4rem;
 }
@@ -85,7 +87,7 @@ header .mode {
 
 .home {
     display: flex;
-    justify-content: ce nter;
+    justify-content: center;
     align-items: center;
 }
 
@@ -163,8 +165,9 @@ top: 0;
     z-index: 2;
     transition: 1s;
 }
-.home .image .garuda-black .garuda-dark{
-    opacity: .8;
+.home .image .garuda-black {
+    opacity: .2;
+    transition: 1s;
 }
 .sci {
     position: absolute;
@@ -179,9 +182,10 @@ top: 0;
     height: 4rem;
     background: #f00;
     border-radius: 50%;
-text-align: center;
-margin-left: 2.5rem;
-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
+    text-align: center;
+    margin-left: 2.5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
+    transition: .3s;
 }
 
 .sci a i {
