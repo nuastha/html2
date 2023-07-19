@@ -1,4 +1,4 @@
-//change and icon(dark mode) 
+//change and icon (dark mode)
 const mode = document.queryselector('.mode');
 const icon = document.queryselector('.fa-moon');
 const garuda = document.queryselector('.garuda-black');
